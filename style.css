@@ -583,6 +583,65 @@ line-height: normal;
     background-size: cover;
     border-radius: 10px;
     margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 30px;
+
+}
+
+.sec-6-container1{
+    border-radius: 16px;
+border: 2px solid #FFF;
+background: rgba(255, 255, 255, 0.80);
+backdrop-filter: blur(2.5px);
+width: 40% ;
+height: 60%;
+flex-shrink: 0;
+padding: 50px ;
+
+
+
+}
+.sec-6-container1-header{
+     display: flex;
+justify-content: space-between; 
+
+}
+
+.sec-6-container1 h4,p{
+    margin: 10px 0;
+}
+.sec-6-container1 h4{
+    color: #131318;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+
+}
+
+.sec-6-container1 span{
+    color: #FF5400;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+
+}
+
+.need-margin{
+    margin-bottom: 10px;
+}
+
+.section61{
+    background:  url('Images/Rectangle\ 13.png');
+    justify-content: flex-start;
+    padding-left: 30px;
+  
+
 
 }
 
@@ -745,33 +804,36 @@ line-height: normal;
         width: 90%;
     }
 
-    /* section 8 */
-
-   
-
-
-    /* .sec-8-angle{
-       height: 50px;
-       width: 60%;
-       left: 80px;
-     
-      
-       
-    }
-    .sec-8-angle p{
-        
-        font-size: 12px;
-        
-
-    }
-    #pera4{
-        font-size: 20px;
-
-    }
-    */
-
-
   
+    /* optional */
+    .section6 {
+       align-items: end;
+       margin-right: 30px;
+       padding-right: 0;
+
+    }
+    .sec-6-container1{
+        width: 50%;
+        margin: 20px auto;
+        padding-top: 10px;
+        
+    }
+    .sec-6-container1-header{
+        flex-wrap: wrap;
+      
+    }
+ 
+
+    .ellips{
+        width: 200px;
+        overflow: hidden;
+        white-space:nowrap;
+        
+    }
+
+    .section61{
+        padding-left: 0;
+    }
 
 
 
