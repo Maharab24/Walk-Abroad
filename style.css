@@ -42,6 +42,12 @@ button {
     border: none;
 
 }
+button:hover{
+    transition: all 2s;
+   background: linear-gradient(-60deg,white, red
+);
+    color:black ;
+}
 
 p {
     color: #5A5A5D;
