@@ -440,6 +440,63 @@ background: rgba(233, 68, 68, 0.05);
 
 }
 
+ /* section 8 */
+
+
+
+
+.pera3{
+    border: 1px solid orangered;
+    padding: 20px;
+    border-radius: 16px;
+
+}
+
+.last{
+    display: inline-flex;
+    flex-direction: column;
+    width: 80%;
+}
+.last input{
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    width: 100%;
+
+}
+.sec-2-part2{
+    position: relative;
+}
+.sec-8-angle{
+    position: absolute;
+    border-radius: 16px;
+    background: #FF5400;
+    width: 40%;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    bottom: 6%;
+    left: 55%;
+    text-align: center;
+
+  
+    padding: 10px;
+    
+}
+.sec-8-angle p{
+    color: white;
+   
+    
+
+}
+
+#pera4{
+    color: #FFF;
+font-family: Mulish;
+font-size: 25px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
 
 
 
@@ -561,6 +618,10 @@ background: rgba(233, 68, 68, 0.05);
     .sec-5-container2{
         width: 90%;
     }
+
+    /* section 8 */
+
+  
 
 
 
