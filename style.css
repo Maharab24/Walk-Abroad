@@ -229,6 +229,9 @@ li {
     width: 100%;
     border-radius: 16px;
 }
+.sec-2-part1{
+    width: 50%;
+}
 
 
 /* section 3 */
@@ -524,6 +527,7 @@ background: rgba(233, 68, 68, 0.05);
     bottom: 6%;
     left: 55%;
     text-align: center;
+    margin: 0 auto;
 
   
     padding: 10px;
@@ -771,6 +775,9 @@ line-height: normal;
     .sec-2-part2 {
         width: 100%;
 
+    }
+    .sec-2-part1{
+        width: 100%;
     }
 
     /* section 3 */
