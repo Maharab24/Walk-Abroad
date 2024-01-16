@@ -851,11 +851,17 @@ line-height: normal;
 
     }
     .sec-2-part1{
+        width: 100%;
+    }
+    .section2 li{
+        width: 90%;
+    }
+    .section2 .sec-2-part1 p{
+        width: 90%;
+    }
+    .pera3{
         width: 80%;
     }
-    /* .pera3{
-        width: 80%;
-    } */
 
     /* section 3 */
 
