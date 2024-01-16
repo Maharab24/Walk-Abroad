@@ -518,27 +518,40 @@ background: rgba(233, 68, 68, 0.05);
     position: relative;
 }
 .sec-8-angle{
-    position: absolute;
     border-radius: 16px;
     background: #FF5400;
-    width: 40%;
-    height: 120px;
-    transform: rotate(-19.628deg);
-    bottom: 6%;
-    left: 55%;
+    border: none;
     text-align: center;
-    margin: 0 auto;
-
-  
-    padding: 10px;
+    padding: 4px 10px;
+    position: absolute;
+    transform: rotate(-19.628deg);
+    right: 1%;
+    bottom: 9%;
     
 }
 .sec-8-angle p{
-    color: white;
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    width: 100%;
    
     
 
 }
+
+.sec-8-angle h3{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 4px;
+    margin-top: 4px;
+   
+   
+    
+
+}
+
 
 #pera4{
     color: #FFF;
@@ -912,6 +925,17 @@ line-height: normal;
         padding-left: 0;
     }
 
+
+    .sec-8-angle{
+        width: 60%;
+    }
+    .sec-8-angle p{
+        font-size: 20px;
+    }
+
+    .sec-8-angle h3{
+        font-size: 15px;
+    }
 
 
 
