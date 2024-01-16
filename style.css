@@ -650,6 +650,8 @@ line-height: normal;
     background:  url('Images/Rectangle\ 13.png');
     justify-content: flex-start;
     padding-left: 30px;
+    background-repeat: no-repeat
+   
   
 
 
@@ -720,6 +722,7 @@ line-height: normal;
 
 
 
+
 /*--------------- make responsive ----------------------*/
 
 @media screen and (max-width: 600px) {
@@ -742,7 +745,7 @@ line-height: normal;
         transition: 0.4s;
     }
     
-    /* Optional: Add styles for the active state (e.g., when the menu is open) */
+  
     .hamburger-icon.active span:nth-child(1) {
         transform: rotate(-45deg) translate(-5px, 6px);
     }
@@ -772,6 +775,10 @@ line-height: normal;
 
     .n-part1{
         display: flex;
+    }
+
+    .bar-part1 p,span{
+        font-size: 20px;
     }
 
 
